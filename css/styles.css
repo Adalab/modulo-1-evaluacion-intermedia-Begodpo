@@ -10,11 +10,29 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+/* Header */
 .header-container {
-  background-color: beige;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+.logo {
+  width: 155px;
+  margin-top: 10px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  color: var(--menu-color);
+  text-transform: uppercase;
+  margin: 10px 0 13px 0;
+}
+.item1 {
+  background-color: yellow;
+  margin-right: 20px;
+}
+
+/* Main */
 main {
   background-color: var(--background-color);
   height: 100vh;
