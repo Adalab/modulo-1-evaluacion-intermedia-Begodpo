@@ -61,7 +61,7 @@ body {
   font-size: 30px;
   color: var(--diversity-text);
   text-transform: capitalize;
-  word-spacing: 100vh;
+  word-spacing: 200vh;
 }
 
 /* Tablet */
